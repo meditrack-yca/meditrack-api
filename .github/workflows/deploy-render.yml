@@ -37,7 +37,7 @@ jobs:
           
       # -- LE DÉPLOIEMENT RENDER --
       - name: Déclenchement du déploiement Render
-        uses: johnbeynon/render-deploy-action@v0.0.8
+        uses: johnbeynon/render-deploy-action@v0.0.9
         with:
           api-key: ${{ secrets.RENDER_API_KEY }}
           service-id: "srv-d8gts61kh4rs73e7k710"
