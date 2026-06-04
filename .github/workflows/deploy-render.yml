@@ -40,4 +40,4 @@ jobs:
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
           service-id: ${{ secrets.RENDER_SERVICE_ID }} # L'ID du Web Service sur Render
-          [cite_start]api-key: ${{ secrets.RENDER_API_KEY }}       # La clé secrète Render [cite: 131]
+          [cite_start]api-key: ${{ secrets.RENDER_API_KEY }}       # La clé secrète Render
