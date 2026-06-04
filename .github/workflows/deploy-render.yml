@@ -37,7 +37,7 @@ jobs:
           
       # --- LE DÉPLOIEMENT RENDER ---
       - name: Déclenchement du déploiement Render
-        uses: johnbeynon/render-deploy-action@v0.0.8
+        uses: render-oss/github-action@v2
         with:
-          service-id: ${{ secrets.RENDER_SERVICE_ID }} # L'ID du Web Service sur Render
-          [cite_start]api-key: ${{ secrets.RENDER_API_KEY }}       # La clé secrète Render
+          api-key: ${{ secrets.RENDER_API_KEY }}
+          service-id: "srv-d8gts61kh4rs73e7k710"
