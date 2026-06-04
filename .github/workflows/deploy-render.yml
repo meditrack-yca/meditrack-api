@@ -35,7 +35,7 @@ jobs:
           name: dist-server
           path: dist-server.zip
           
-      # --- LE DÉPLOIEMENT RENDER ---
+      # -- LE DÉPLOIEMENT RENDER --
       - name: Déclenchement du déploiement Render
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
